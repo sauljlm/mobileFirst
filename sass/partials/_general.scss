@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    color: white;
+    font-family: $Montserrat;
+}
+
+.container{
+    max-width: 94%;
+    padding: 0 4% 0 4%;
+}
+ul{
+    list-style: none;
+}
+a {
+    color: $white;
+    text-decoration: none;
+}
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.cls-1 {
+    fill:none;
+    stroke: #fff;
+    linecap: round;
+    stroke-linejoin:round;
+    stroke-linecap:round;
+    stroke-width: 2px;
+}

@@ -1,0 +1,63 @@
+.section1{
+    margin: 0 auto;
+    h2{
+        float: left;
+        font-weight: normal;
+        padding-top: 14px;
+        font-size: 16px;
+    }
+    img{
+        max-width: 15px;
+        padding: 14px;
+    }
+}
+.header{
+    background-color: $backgroundHeader;
+}
+.hamburguer{
+    float: right;
+    background-color: $backgroundHamburguer;
+}
+.url{
+    a{
+        color: $colorFonUrl;
+    }
+}
+.slogan{
+    background-image: url("../img/backgroundImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .content{
+        padding-top: 58px;
+        padding-bottom: 53px;
+        p{
+            font-size: 30px;
+        }
+
+    }
+    .icons{
+        width: 12px;
+        padding-left: 35%;
+        padding-top: 17px;
+    }
+}
+.svgSubmit{
+    background-color: $backgroundSubmit;
+    float: right;
+    width: 20%;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    text-align: center;
+    .icons{
+        width: 10px;
+    }
+}
+#search{
+    width: 72%;
+    background-color: $backgroundInput;
+    border: none;
+    color: $colorFontInput;
+    padding-top: 34px;
+    padding-bottom: 32px;
+    font-size: 18px;
+}
