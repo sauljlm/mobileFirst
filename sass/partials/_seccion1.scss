@@ -4,7 +4,8 @@
         float: left;
         font-weight: normal;
         padding-top: 14px;
-        font-size: 16px;
+        font-size: 1rem;
+        color: #d1d2d2;
     }
     img{
         max-width: 15px;
@@ -30,9 +31,8 @@
     .content{
         padding-top: 58px;
         padding-bottom: 53px;
-        max-width: 72%;
         p{
-            font-size: 24px;
+            font-size: 2rem;
         }
 
     }
@@ -58,7 +58,7 @@
     background-color: $backgroundInput;
     border: none;
     color: $colorFontInput;
-    padding-top: 36px;
+    padding-top: 35px;
     padding-bottom: 35px;
-    font-size: 13px;
+    font-size: 0.9rem;
 }

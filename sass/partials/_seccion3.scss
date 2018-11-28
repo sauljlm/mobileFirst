@@ -8,17 +8,17 @@
     float: left;
 }
 .containerTexto{
-    max-width: 380px;
+    width: 76%;
     padding-left: 12%;
     padding-right: 12%;
     h2{
-        color: $colotTitle;
-        font-size: 19px;
+        color: $colorTitle;
+        font-size: 1.1rem;
         padding: 35px 0 26px 0;
     }
     p{
         color: $colorFontTexto;
-        font-size: 13.5px;
+        font-size: 0.9rem;
         padding-bottom: 37px;
     }
 }

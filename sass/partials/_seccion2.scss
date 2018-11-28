@@ -4,7 +4,7 @@
 .box1{
     background-color: $backgroundPurple;
     svg{
-        max-width: 20px;
+        max-width: 10%;
         padding: 120px 0 120px 0;
     }
     .containerSVG{
@@ -13,6 +13,7 @@
 }
 .box2, .box3{
     img{
-        width: 100%;     
+        width: 100%;  
+        display: block;   
     }
 }
