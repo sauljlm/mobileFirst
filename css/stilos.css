@@ -84,4 +84,15 @@ a {
   padding-bottom: 32px;
   font-size: 18px; }
 
+.box1 {
+  background-color: #5b0fa1; }
+  .box1 svg {
+    max-width: 20px;
+    padding: 120px 0 120px 0; }
+  .box1 .containerSVG {
+    text-align: center; }
+
+.box2 img, .box3 img {
+  width: 100%; }
+
 /*# sourceMappingURL=stilos.css.map */
