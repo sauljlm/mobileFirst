@@ -1,0 +1,23 @@
+.section3{
+    background-color: $backgroundTexto;
+    .texto2{
+        display: none;
+    }
+}
+.texto1, .texto2{
+    float: left;
+}
+.containerTexto{
+    padding-left: 12%;
+    padding-right: 12%;
+    h2{
+        color: $colotTitle;
+        font-size: 19px;
+        padding: 35px 0 26px 0;
+    }
+    p{
+        color: $backgroundHeader;
+        font-size: 13.5px;
+        padding-bottom: 37px;
+    }
+}

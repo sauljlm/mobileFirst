@@ -95,4 +95,24 @@ a {
 .box2 img, .box3 img {
   width: 100%; }
 
+.section3 {
+  background-color: #ebebeb; }
+  .section3 .texto2 {
+    display: none; }
+
+.texto1, .texto2 {
+  float: left; }
+
+.containerTexto {
+  padding-left: 12%;
+  padding-right: 12%; }
+  .containerTexto h2 {
+    color: #088ca5;
+    font-size: 19px;
+    padding: 35px 0 26px 0; }
+  .containerTexto p {
+    color: #373c3f;
+    font-size: 13.5px;
+    padding-bottom: 37px; }
+
 /*# sourceMappingURL=stilos.css.map */
