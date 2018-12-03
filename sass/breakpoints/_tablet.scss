@@ -1,2 +1,66 @@
-@media (max-width: $breakpoint-md){
+@media (min-width: $breakpoint-md){
+    .none{
+        display: none;
+    }
+    ul{
+        display: inline-block;
+        padding-top: 45px;
+        padding-bottom: 41px;
+        li{
+            float: left;
+            color: $backgroundTexto; 
+            padding: 15px;
+        }
+    }
+    .url{
+        font-size: 1.8rem;
+    }
+    .slogan{
+        .content{
+            padding-top: 190px;
+            padding-bottom: 160px;
+            p{
+                font-size: 3rem;
+            }
+        }
+        .icons{
+            width: 24px;
+            padding-top: 60px;
+        }
+    }
+    .svgSubmit{
+        padding-top: 95px;
+        padding-bottom: 95px;
+        .icons{
+            width: 60px;
+        }
+    }
+    #search{
+        width: 72%;
+        padding-top: 110px;
+        padding-bottom: 107px;
+        font-size: 2rem;
+    }
+    .box1{
+        svg{
+            padding: 38% 0 37% 0;
+        }
+    }
+    .box{
+        width: 33.33%;
+        float: left;
+    }
+        
+    .texto2{
+        display: block !important;
+        padding-top: 82px;
+        padding-left: 12%;
+    }
+    .texto1, .texto2{
+        width: 44%;
+    }
+    .containerTexto{
+        padding-left: 12%;
+        padding-right: 12%;
+    }
 }    

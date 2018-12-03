@@ -52,8 +52,19 @@ a {
   float: right;
   background-color: #202529; }
 
+ul {
+  display: none;
+  padding-top: 20px; }
+  ul li {
+    color: #ebebeb;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-right: 15px;
+    float: left;
+    font-size: 0.8rem; }
+
 .url a {
-  color: #b6dae2; }
+  color: #acd8e1; }
 
 .slogan {
   background-image: url("../img/backgroundImage.jpg");
@@ -92,7 +103,7 @@ a {
   background-color: #5b0fa1; }
   .box1 svg {
     max-width: 10%;
-    padding: 120px 0 120px 0; }
+    padding: 46% 0 46% 0; }
   .box1 .containerSVG {
     text-align: center; }
 
@@ -106,10 +117,10 @@ a {
     display: none; }
 
 .texto1, .texto2 {
-  float: left; }
+  float: left;
+  width: 100%; }
 
 .containerTexto {
-  width: 76%;
   padding-left: 12%;
   padding-right: 12%; }
   .containerTexto h2 {
@@ -120,5 +131,86 @@ a {
     color: #515151;
     font-size: 0.9rem;
     padding-bottom: 37px; }
+
+@media (min-width: 768px) {
+  .none {
+    display: none; }
+
+  ul {
+    display: inline-block;
+    padding-top: 45px;
+    padding-bottom: 41px; }
+    ul li {
+      float: left;
+      color: #ebebeb;
+      padding: 15px; }
+
+  .url {
+    font-size: 1.8rem; }
+
+  .slogan .content {
+    padding-top: 190px;
+    padding-bottom: 160px; }
+    .slogan .content p {
+      font-size: 3rem; }
+  .slogan .icons {
+    width: 24px;
+    padding-top: 60px; }
+
+  .svgSubmit {
+    padding-top: 95px;
+    padding-bottom: 95px; }
+    .svgSubmit .icons {
+      width: 60px; }
+
+  #search {
+    width: 72%;
+    padding-top: 110px;
+    padding-bottom: 107px;
+    font-size: 2rem; }
+
+  .box1 svg {
+    padding: 38% 0 37% 0; }
+
+  .box {
+    width: 33.33%;
+    float: left; }
+
+  .texto2 {
+    display: block !important;
+    padding-top: 82px;
+    padding-left: 12%; }
+
+  .texto1, .texto2 {
+    width: 44%; }
+
+  .containerTexto {
+    padding-left: 12%;
+    padding-right: 12%; } }
+@media (min-width: 1024px) {
+  .containerTexto {
+    padding-left: 6%;
+    padding-right: 6%; }
+    .containerTexto h2 {
+      font-size: 1.5rem; }
+    .containerTexto p {
+      font-size: 1rem; }
+
+  .slogan .content {
+    padding-top: 205px;
+    padding-bottom: 168px; }
+    .slogan .content p {
+      font-size: 3.5rem; }
+  .slogan .url {
+    font-size: 2rem; }
+  .slogan .icons {
+    width: 27px;
+    padding-left: 30%; }
+
+  .texto1, .texto2 {
+    width: 47%; }
+
+  .texto2 {
+    padding-left: 6%; } }
 
 /*# sourceMappingURL=stilos.css.map */
